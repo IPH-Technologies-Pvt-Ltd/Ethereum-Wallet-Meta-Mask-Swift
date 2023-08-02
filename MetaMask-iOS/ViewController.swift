@@ -47,11 +47,12 @@ class ViewController: UIViewController {
     }
     
     private func connectToMetaMask() {
-        let dapp = Dapp(name: "Dub Dapp", url: "https://dubdapp.com")
+        let dapp = Dapp(name: "Baby colouring book for kids", url: "https://apps.apple.com/in/app/baby-colouring-book-for-kids/id1129192831")
         ethereum.connect(dapp)
         
         // Fetch Chain ID
-        ethereum.requestChainId()
+        ethereum.$chainId
+       // ethereum.requestChainId()
             .sink(receiveCompletion: { [weak self] completion in
                 switch completion {
                 case .failure(let error):

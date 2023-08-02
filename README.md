@@ -1,1 +1,1 @@
-# Ethereum-Wallet---Meta-Mask---Swift
+# Ethereum-Wallet-Meta-Mask-Swift

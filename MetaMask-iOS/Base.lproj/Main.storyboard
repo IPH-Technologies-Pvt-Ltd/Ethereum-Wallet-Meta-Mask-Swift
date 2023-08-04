@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -17,18 +18,40 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zE6-rj-ap4">
-                                <rect key="frame" x="96" y="408.66666666666669" width="201" height="35"/>
+                                <rect key="frame" x="96" y="402" width="201" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="AsO-vc-fi2"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Link to Ethereum wallet"/>
+                                <connections>
+                                    <action selector="linkWalletButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hvq-cP-Tba"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chain ID:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4U3-we-7oX">
+                                <rect key="frame" x="16" y="232" width="361" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="UQp-4w-Zew"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="4U3-we-7oX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="1GI-aK-Pci"/>
                             <constraint firstItem="zE6-rj-ap4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="I6f-mx-qqz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4U3-we-7oX" secondAttribute="trailing" constant="16" id="IdN-p7-2tG"/>
+                            <constraint firstItem="4U3-we-7oX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="173" id="Jpl-pA-6bj"/>
                             <constraint firstItem="zE6-rj-ap4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e0Y-Bn-cev"/>
+                            <constraint firstItem="zE6-rj-ap4" firstAttribute="top" secondItem="4U3-we-7oX" secondAttribute="bottom" constant="120" id="jIG-I2-0nF"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="chainIDLabel" destination="4U3-we-7oX" id="VHK-IW-bAF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

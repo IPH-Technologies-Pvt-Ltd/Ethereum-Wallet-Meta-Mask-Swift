@@ -1,30 +1,30 @@
 {
   "pins" : [
     {
-      "identity" : "metamask-ios-sdk",
+      "identity" : "cryptoswift",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/MetaMask/metamask-ios-sdk",
+      "location" : "https://github.com/krzyzanowskim/CryptoSwift.git",
       "state" : {
-        "revision" : "0d8ffc3d369e6769a2d4422c01fafa60dd7a209a",
-        "version" : "0.2.0"
+        "revision" : "039f56c5d7960f277087a0be51f5eb04ed0ec073",
+        "version" : "1.5.1"
       }
     },
     {
-      "identity" : "socket.io-client-swift",
+      "identity" : "glaip",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/socketio/socket.io-client-swift",
+      "location" : "https://github.com/maurovz/Glaip.git",
       "state" : {
-        "revision" : "af5ce97b755d964235348d96f6db5cbdcbe334a5",
-        "version" : "16.0.1"
+        "revision" : "7ef71818907c5cb89e81ececae9f2d705e49296f",
+        "version" : "0.1.2"
       }
     },
     {
-      "identity" : "starscream",
+      "identity" : "walletconnectswift",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/daltoniam/Starscream",
+      "location" : "https://github.com/WalletConnect/WalletConnectSwift.git",
       "state" : {
-        "revision" : "df8d82047f6654d8e4b655d1b1525c64e1059d21",
-        "version" : "4.0.4"
+        "revision" : "e0bbfd16d5c54a7aa7e316956d765399c6332fa2",
+        "version" : "1.7.0"
       }
     }
   ],

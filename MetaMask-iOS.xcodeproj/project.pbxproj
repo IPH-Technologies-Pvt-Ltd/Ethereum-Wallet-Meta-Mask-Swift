@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1368A92F2A7CCFFA00E14E7C /* Glaip in Frameworks */ = {isa = PBXBuildFile; productRef = 1368A92E2A7CCFFA00E14E7C /* Glaip */; };
 		13BD12322A7A284400A62039 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BD12312A7A284400A62039 /* AppDelegate.swift */; };
 		13BD12342A7A284400A62039 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BD12332A7A284400A62039 /* SceneDelegate.swift */; };
 		13BD12362A7A284400A62039 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BD12352A7A284400A62039 /* ViewController.swift */; };
 		13BD12392A7A284400A62039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13BD12372A7A284400A62039 /* Main.storyboard */; };
 		13BD123B2A7A284500A62039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13BD123A2A7A284500A62039 /* Assets.xcassets */; };
 		13BD123E2A7A284500A62039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13BD123C2A7A284500A62039 /* LaunchScreen.storyboard */; };
-		13BD12472A7A2B2500A62039 /* metamask-ios-sdk in Frameworks */ = {isa = PBXBuildFile; productRef = 13BD12462A7A2B2500A62039 /* metamask-ios-sdk */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,18 +32,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13BD12472A7A2B2500A62039 /* metamask-ios-sdk in Frameworks */,
+				1368A92F2A7CCFFA00E14E7C /* Glaip in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05EBD23C79296DC8CA640B25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		13BD12252A7A284400A62039 = {
 			isa = PBXGroup;
 			children = (
 				13BD12302A7A284400A62039 /* MetaMask-iOS */,
 				13BD122F2A7A284400A62039 /* Products */,
+				05EBD23C79296DC8CA640B25 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,7 +94,7 @@
 			);
 			name = "MetaMask-iOS";
 			packageProductDependencies = (
-				13BD12462A7A2B2500A62039 /* metamask-ios-sdk */,
+				1368A92E2A7CCFFA00E14E7C /* Glaip */,
 			);
 			productName = "MetaMask-iOS";
 			productReference = 13BD122E2A7A284400A62039 /* MetaMask-iOS.app */;
@@ -117,7 +125,7 @@
 			);
 			mainGroup = 13BD12252A7A284400A62039;
 			packageReferences = (
-				13BD12452A7A2B2500A62039 /* XCRemoteSwiftPackageReference "metamask-ios-sdk" */,
+				1368A92D2A7CCFFA00E14E7C /* XCRemoteSwiftPackageReference "Glaip" */,
 			);
 			productRefGroup = 13BD122F2A7A284400A62039 /* Products */;
 			projectDirPath = "";
@@ -224,7 +232,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -278,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -303,7 +311,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +340,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -370,21 +378,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		13BD12452A7A2B2500A62039 /* XCRemoteSwiftPackageReference "metamask-ios-sdk" */ = {
+		1368A92D2A7CCFFA00E14E7C /* XCRemoteSwiftPackageReference "Glaip" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/MetaMask/metamask-ios-sdk";
+			repositoryURL = "https://github.com/maurovz/Glaip.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.2.0;
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.1.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		13BD12462A7A2B2500A62039 /* metamask-ios-sdk */ = {
+		1368A92E2A7CCFFA00E14E7C /* Glaip */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 13BD12452A7A2B2500A62039 /* XCRemoteSwiftPackageReference "metamask-ios-sdk" */;
-			productName = "metamask-ios-sdk";
+			package = 1368A92D2A7CCFFA00E14E7C /* XCRemoteSwiftPackageReference "Glaip" */;
+			productName = Glaip;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

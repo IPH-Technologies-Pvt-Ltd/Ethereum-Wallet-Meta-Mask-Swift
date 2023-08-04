@@ -26,11 +26,11 @@ Ethereum Wallet MetaMask Swift provides Ethereum wallet functionality and integr
   cd Ethereum-Wallet-Meta-Mask-Swift
   ```
 
-4. Open the Xcode project file:
+3. Open the Xcode project file:
  ```bash 
   open MetaMask-iOS.xcodeproj
 ```
-5. Build and run the project using the Xcode simulator or a connected iOS device.
+4. Build and run the project using the Xcode simulator or a connected iOS device.
 
 ## Dependencies: install the sdk
 - To add the SDK as a Swift Package Manager (SPM) package to your project, in Xcode, select File > Swift Packages > Add Package Dependency

@@ -53,7 +53,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [FontAwesomeSwift](https://github.com/thii/FontAwesome.swift)  - Used for Your dapp can use MetaMask SDK and the MetaMask APIs to request users' Ethereum accounts, read data from connected blockchains, suggest that the user sign messages and transactions, and perform other functions on MetaMask from multiple dapp platforms.
 
 ## Screenshot
-<img src= ""
+<img src= "https://github.com/IPH-Technologies-Pvt-Ltd/Ethereum-Wallet-Meta-Mask-Swift/blob/main/RPReplay_Final1691147668.gif"
      width="250" 
      height="500"/>
 

@@ -23,12 +23,12 @@ Ethereum Wallet MetaMask Swift provides Ethereum wallet functionality and integr
 
 2. Navigate to the project directory:
  ```bash
-  cd WeatherApp-iOS
+  cd Ethereum-Wallet-Meta-Mask-Swift
   ```
 
 4. Open the Xcode project file:
  ```bash 
-  open WeatherApp.xcworkspace
+  open MetaMask-iOS.xcodeproj
 ```
 5. Build and run the project using the Xcode simulator or a connected iOS device.
 
